@@ -1,0 +1,9 @@
+$font_path: '~assets/fonts/';
+
+@font-face {
+  font-family: 'Boulevard';
+  src: url($font_path + 'boulevard-webfont.woff2') format('woff2'),
+       url($font_path + 'boulevard-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
